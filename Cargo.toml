@@ -1,0 +1,20 @@
+# Cargo.toml
+[package]
+name = "rust2cpp_rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust2cpp_rust"
+crate-type = ["staticlib"]
+
+[dependencies]
+cxx = "1.0"
+
+[build-dependencies]
+cxx-build = "1.0"
+miette = { version = "5", features = ["fancy"] }
+
+[profile.release]
+lto = true
+opt-level = 3
