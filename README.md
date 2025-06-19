@@ -141,7 +141,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [cxx](https://github.com/dtolnay/cxx) - Safe FFI between Rust and C++
 - [Corrosion](https://github.com/corrosion-rs/corrosion) - CMake integration for Rust
-- [rust-cpp](https://github.com/mystor/rust-cpp) - Alternative FFI approach
 
 ---
 
